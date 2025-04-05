@@ -16,23 +16,8 @@
 -> F(FH) - Potential Function.
 The time complexities of different operations performed on a Fibonacci heap are listed below in the table:
 
-1.
-Find Min
-Q (1)
-Binary and Binomial heaps have the same time complexity.
-2.
-Extract Min
-O(D(n)) = O(log n)
-Binary and Binomial heaps have the same time complexity.
-3.
-Delete a Node
-Q (1)
-Binary takes O(logn) and Binomial takes Q (1)
-4.
-Decrease Key
-Q (1)
-Binary and Binomial both take O(logn)
-5.
-Union
-Q (1)
-Binarytakese O(m logn) or O(m+n) and Binomial takes O(logn).
+1. Find Min Q (1) Binary and Binomial heaps have the same time complexity.
+2.Extract Min O(D(n)) = O(log n) Binary and Binomial heaps have the same time complexity.
+3.Delete a Node Q (1) Binary takes O(logn) and Binomial takes Q (1)
+4.Decrease Key Q (1) Binary and Binomial both take O(logn)
+5.Union Q (1) Binarytakese O(m logn) or O(m+n) and Binomial takes O(logn).
