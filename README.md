@@ -1,25 +1,19 @@
-Fibonacci Heap - A Fibonacci heap is defined as the collection of rooted-tree in which all the trees must hold the property of Min-heap. That is, for all the nodes, the key value of the parent node should be greater than the key value of the parent node:
+<h2><b>Fibonacci Heap</b></h2>- A Fibonacci heap is defined as the collection of rooted-tree in which all the trees must hold the property of Min-heap. That is, for all the nodes, the key value of the parent node should be greater than the key value of the parent node.
 
-The given figure is an example of the Fibonacci tree:
+<h2><b><u>Properties of Fibonacci Heap:</u></b></h2>
 
-Fibonacci Heap
-The above Fibonacci Heap consists of five rooted min-heap-ordered trees with 14 nodes. The min-heap-ordered tree means the tree which holds the property of a min-heap. The dashed line shows the root list. The minimum node in the Fibonacci heap is the node containing the key = 3 pointed by the pointer FH-min.
-
-
-Properties of Fibonacci Heap:
-
-It can have multiple trees of equal degrees, and each tree doesn't need to have 2^k nodes.
-All the trees in the Fibonacci Heap are rooted but not ordered.
-All the roots and siblings are stored in a separated circular-doubly-linked list.
-The degree of a node is the number of its children. Node X -> degree = Number of X's children.
-Each node has a mark-attribute in which it is marked TRUE or FALSE. The FALSE indicates the node has not any of its children. The TRUE represents that the node has lost one child. The newly created node is marked FALSE.
-The potential function of the Fibonacci heap is F(FH) = t[FH] + 2 * m[FH]
-The Fibonacci Heap (FH) has some important technicalities listed below:
-min[FH] - Pointer points to the minimum node in the Fibonacci Heap
-n[FH] - Determines the number of nodes
-t[FH] - Determines the number of rooted trees
-m[FH] - Determines the number of marked nodes
-F(FH) - Potential Function.
+-> It can have multiple trees of equal degrees, and each tree doesn't need to have 2^k nodes.
+-> All the trees in the Fibonacci Heap are rooted but not ordered.
+-> All the roots and siblings are stored in a separated circular-doubly-linked list.
+-> The degree of a node is the number of its children. Node X -> degree = Number of X's children.
+-> Each node has a mark-attribute in which it is marked TRUE or FALSE. The FALSE indicates the node has not any of its children. The TRUE represents that the node has lost one child. The newly created node is marked FALSE.
+-> The potential function of the Fibonacci heap is F(FH) = t[FH] + 2 * m[FH]
+-> The Fibonacci Heap (FH) has some important technicalities listed below:
+-> min[FH] - Pointer points to the minimum node in the Fibonacci Heap
+-> n[FH] - Determines the number of nodes
+-> t[FH] - Determines the number of rooted trees
+-> m[FH] - Determines the number of marked nodes
+-> F(FH) - Potential Function.
 The time complexities of different operations performed on a Fibonacci heap are listed below in the table:
 
 1.
